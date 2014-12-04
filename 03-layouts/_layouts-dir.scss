@@ -1,0 +1,35 @@
+
+/*
+SMALL
+*/
+@import "handheld";
+
+/*
+MEDIUM (Lap)
+*/
+@media only screen and (min-width: 40.063em) {
+
+	// styles in lap.scss
+	@import "lap";
+
+} // end of media query
+
+/*
+LARGE (Desktop)
+*/
+@media only screen and (min-width: 64.063em) {
+
+	// styles in desktop.scss
+	@import "desktop";
+
+} // end of media query
+
+/*
+XLARGE (Display)
+*/
+@media only screen and (min-width: 90.063em) {
+
+	// styles in display.scss
+	@import "display";
+
+} // end of media query
